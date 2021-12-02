@@ -16,7 +16,8 @@ R = 400;
 V_D = linspace(0,V_0 * 1.05,4000);
 I_D = diode_current(V_D);
 I_R = resistor_current(V_D, V_0, R);
-load_line_plot(V_D, I_D, I_R, 'Part a', save_dir)
+%load_line_plot(V_D, I_D, I_R, 'Part a', save_dir)
+load_line_plot_tutorial(V_D, I_D, I_R, 'Part a', save_dir)
 
 % Part b
 V_0 = 10;
@@ -24,7 +25,8 @@ R = 10 * 10^3;
 V_D = linspace(0,V_0 * 1.05,4000);
 I_D = diode_current(V_D);
 I_R = resistor_current(V_D, V_0, R);
-load_line_plot(V_D, I_D, I_R, 'Part b', save_dir)
+%load_line_plot(V_D, I_D, I_R, 'Part b', save_dir)
+load_line_plot_tutorial(V_D, I_D, I_R, 'Part b', save_dir)
 
 % Part c
 V_0 = 1;
@@ -32,7 +34,8 @@ R = 200;
 V_D = linspace(0,V_0 * 1.05,4000);
 I_D = diode_current(V_D);
 I_R = resistor_current(V_D, V_0, R);
-load_line_plot(V_D, I_D, I_R, 'Part c', save_dir)
+%load_line_plot(V_D, I_D, I_R, 'Part c', save_dir)
+load_line_plot_tutorial(V_D, I_D, I_R, 'Part c', save_dir)
 %% Current functions
 
 function I_D = diode_current(V_D)
