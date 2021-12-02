@@ -1,7 +1,7 @@
 %% Setup
 addpath(genpath('Helper Scripts'))
 addpath(genpath('General Code'))
-save_dir = 'HW7 — Load Lines';
+save_dir = 'Intermediate Tutorials/HW7 — Load Lines';
 
 %% Figure settings
 set(groot,'defaulttextinterpreter','latex');
